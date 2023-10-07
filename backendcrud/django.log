@@ -362,3 +362,4 @@ Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any tru
 Received PUT request data: {'id': 19, 'company_name': 'VueJs', 'first_name': 'asadullah', 'last_name': 'khan', 'contact_email': 'asad@gmail.com', 'acquired_on': '2023-10-04', 'customer_status': 'inactive'}
 Existing customer data: VueJs
 Updated customer data: {'id': 19, 'company_name': 'VueJs', 'first_name': 'asadullah', 'last_name': 'khan', 'contact_email': 'asad@gmail.com', 'acquired_on': '2023-10-04', 'customer_status': 'inactive'}
+Watching for file changes with StatReloader
