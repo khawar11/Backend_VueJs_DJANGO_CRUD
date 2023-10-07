@@ -1,0 +1,364 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/7/
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/7/
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/7/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/7/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/8/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/8/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/8/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/8/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Forbidden: /add-customer/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden: /add-customer/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+Forbidden: /add-customer/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden: /add-customer/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /add-customer/
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Received PUT request data: {'id': 9, 'company_name': 'python', 'first_name': 'khawar khan', 'last_name': 'jehangiri', 'contact_email': 'khawarsawati@gmail.com', 'acquired_on': '2023-10-01', 'customer_status': 'active'}
+Existing customer data: python
+Updated customer data: {'id': 9, 'company_name': 'python', 'first_name': 'khawar khan', 'last_name': 'jehangiri', 'contact_email': 'khawarsawati@gmail.com', 'acquired_on': '2023-10-01', 'customer_status': 'active'}
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Received PUT request data: {'id': 15, 'company_name': 'PHP', 'first_name': 'zohan khan', 'last_name': 'jehangiri', 'contact_email': 'zohan@gmail.com', 'acquired_on': '2023-10-10', 'customer_status': 'active'}
+Existing customer data: PHP
+Updated customer data: {'id': 15, 'company_name': 'PHP', 'first_name': 'zohan khan', 'last_name': 'jehangiri', 'contact_email': 'zohan@gmail.com', 'acquired_on': '2023-10-10', 'customer_status': 'active'}
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get-csrf-token/
+Traceback (most recent call last):
+  File "C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Internal Server Error: /get-csrf-token/
+Traceback (most recent call last):
+  File "C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Method Not Allowed: /signin/
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Method Not Allowed: /signup/
+Not Found: /favicon.ico
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Method Not Allowed: /signin/
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Method Not Allowed: /signin/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /signin/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /signin/
+Bad Request: /signin/
+Bad Request: /signin/
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signin/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signin/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signin/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signin/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signin/
+Watching for file changes with StatReloader
+Not Found: /get_csrf_token/
+Not Found: /get_csrf_token/
+Not Found: /get_csrf_token/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Successfully imported extension module "markdown.extensions.toc".
+Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Method Not Allowed: /signin/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /signin/
+Not Found: /favicon.ico
+Received PUT request data: {'id': 10, 'company_name': 'java', 'first_name': 'awais khan', 'last_name': 'jehangirir', 'contact_email': 'awais@gmail.com', 'acquired_on': '2023-10-05', 'customer_status': 'active'}
+Existing customer data: java
+Updated customer data: {'id': 10, 'company_name': 'java', 'first_name': 'awais khan', 'last_name': 'jehangirir', 'contact_email': 'awais@gmail.com', 'acquired_on': '2023-10-05', 'customer_status': 'active'}
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/16/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/16/
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /signin/
+Bad Request: /signup/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /signup/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signup/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /signup/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Bad Request: /signup/
+Bad Request: /signup/
+Bad Request: /signup/
+Bad Request: /signin/
+Not Found: /check-user-exists/
+Not Found: /check-user-exists/
+Bad Request: /signup/
+Bad Request: /signup/
+Watching for file changes with StatReloader
+Bad Request: /signup/
+Bad Request: /signup/
+Bad Request: /signin/
+Watching for file changes with StatReloader
+Bad Request: /signup/
+Bad Request: /signup/
+Bad Request: /signup/
+Bad Request: /signup/
+Bad Request: /signup/
+Received PUT request data: {'id': 17, 'company_name': 'java', 'first_name': 'muhammad', 'last_name': 'haider jehangiri', 'contact_email': 'haider@gmail.com', 'acquired_on': '2023-10-17', 'customer_status': 'active'}
+Existing customer data: java
+Updated customer data: {'id': 17, 'company_name': 'java', 'first_name': 'muhammad', 'last_name': 'haider jehangiri', 'contact_email': 'haider@gmail.com', 'acquired_on': '2023-10-17', 'customer_status': 'active'}
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Not Found: /delete-customer
+Error deleting customer: No Customer matches the given query.
+Forbidden: /delete-customer/6/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrudapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/17/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Received PUT request data: {'id': 16, 'company_name': 'python', 'first_name': 'muhammmad abbas', 'last_name': 'jehangiri', 'contact_email': 'khawarsawati@gmail.com', 'acquired_on': '2023-10-28', 'customer_status': 'inactive'}
+Existing customer data: python
+Updated customer data: {'id': 16, 'company_name': 'python', 'first_name': 'muhammmad abbas', 'last_name': 'jehangiri', 'contact_email': 'khawarsawati@gmail.com', 'acquired_on': '2023-10-28', 'customer_status': 'inactive'}
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Received PUT request data: {'id': 15, 'company_name': 'PHP', 'first_name': 'muhammad zohan khan', 'last_name': 'jehangiri', 'contact_email': 'zohan@gmail.com', 'acquired_on': '2023-10-10', 'customer_status': 'active'}
+Existing customer data: PHP
+Updated customer data: {'id': 15, 'company_name': 'PHP', 'first_name': 'muhammad zohan khan', 'last_name': 'jehangiri', 'contact_email': 'zohan@gmail.com', 'acquired_on': '2023-10-10', 'customer_status': 'active'}
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/18/
+C:\Users\khanb\PycharmProjects\VUE_DJANGO_CRUD\backendcrud\backendcrud\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Bad Request: /signin/
+Bad Request: /signup/
+Bad Request: /signin/
+Bad Request: /signup/
+Watching for file changes with StatReloader
+Bad Request: /signin/
+Bad Request: /signup/
+Bad Request: /signup/
+Watching for file changes with StatReloader
+Bad Request: /signin/
+Bad Request: /signup/
+Bad Request: /signin/
+Bad Request: /signup/
+Bad Request: /signin/
+Bad Request: /signin/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - http://127.0.0.1:5173 does not match any trusted origins.): /delete-customer/15/
+Received PUT request data: {'id': 19, 'company_name': 'VueJs', 'first_name': 'asadullah', 'last_name': 'khan', 'contact_email': 'asad@gmail.com', 'acquired_on': '2023-10-04', 'customer_status': 'inactive'}
+Existing customer data: VueJs
+Updated customer data: {'id': 19, 'company_name': 'VueJs', 'first_name': 'asadullah', 'last_name': 'khan', 'contact_email': 'asad@gmail.com', 'acquired_on': '2023-10-04', 'customer_status': 'inactive'}
