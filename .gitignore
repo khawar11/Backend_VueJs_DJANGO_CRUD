@@ -7,4 +7,3 @@ static/
 *.secret_key
 *.local_settings.py
 *.bak
-*.idea
