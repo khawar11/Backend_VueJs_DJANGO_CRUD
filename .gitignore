@@ -1,4 +1,4 @@
-__pycache__/
+__pycache__
 *.pyc
 venv/
 *.log
@@ -7,4 +7,4 @@ static/
 *.secret_key
 *.local_settings.py
 *.bak
-*.idea/
+*.idea
