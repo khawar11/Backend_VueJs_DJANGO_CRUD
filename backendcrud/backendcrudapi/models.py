@@ -1,9 +1,5 @@
 from django.db import models
 
-# Create your models here.
-# models.py in your Django app
-from django.db import models
-
 
 class Customer(models.Model):
     company_name = models.CharField(max_length=255)

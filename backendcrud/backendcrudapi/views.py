@@ -1,11 +1,5 @@
-from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.views import APIView
-import logging
 from rest_framework.generics import RetrieveUpdateDestroyAPIView
-from django.shortcuts import get_object_or_404
-from django.http import JsonResponse
-from rest_framework.authentication import SessionAuthentication, BasicAuthentication
-from rest_framework.permissions import IsAuthenticated
 from django.middleware import csrf
 from django.db import IntegrityError
 from django.shortcuts import render
@@ -14,10 +8,12 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
-from .models import Customer
 from .serializers import CustomerSerializer
-from django.contrib.auth.decorators import permission_required
-from django.shortcuts import redirect
+from .models import Customer
+import logging
+from django.shortcuts import get_object_or_404
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
 
 logger = logging.getLogger(__name__)
@@ -109,24 +105,12 @@ class CustomerDetail(RetrieveUpdateDestroyAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-# @authentication_classes([SessionAuthentication, BasicAuthentication])
-# @permission_classes([IsAuthenticated])
-def delete_customer(request, pk):
-
-    # Your view logic here
+@csrf_exempt
+@api_view(['DELETE'])
+def delete_customer(request, customer_id):
     try:
-        # Retrieve the customer object using the primary key (pk)
-        customer = get_object_or_404(Customer, pk=pk)
-
-        # Perform the deletion
+        customer = get_object_or_404(Customer, id=customer_id)
         customer.delete()
-
-        # Return a JSON response indicating success
-        return JsonResponse({'message': 'Customer deleted successfully'})
+        return JsonResponse({'success': True, 'message': 'Customer deleted successfully'})
     except Exception as e:
-        # Log the error for debugging purposes
-        logger.error("Error deleting customer: %s", str(e))
-
-        # Return a JSON response indicating the error
-        return JsonResponse({'message': 'Permission denied: You do not have the required permissions to delete this '
-                                        'customer.'}, status=403)
+        return JsonResponse({'success': False, 'message': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

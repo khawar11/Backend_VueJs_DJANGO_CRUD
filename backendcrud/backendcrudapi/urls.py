@@ -25,5 +25,5 @@ urlpatterns = [
     path('signup/', views.user_signup, name='user_signup'),
     path('add-customer/', views.CustomerList.as_view(), name='customerlist'),
     path('add-customer/<int:pk>/', views.CustomerDetail.as_view(), name='customerdetail'),
-    path('delete-customer/<int:pk>/', views.delete_customer, name='delete_customer'),
+    path('delete-customer/<int:customer_id>/', views.delete_customer, name='delete_customer'),
 ]
