@@ -4,17 +4,16 @@ from django.middleware import csrf
 from django.db import IntegrityError
 from django.shortcuts import render
 from rest_framework import status
-from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
 from .serializers import CustomerSerializer
-from .models import Customer
+from .models import Customer, Contact
 import logging
 from django.shortcuts import get_object_or_404
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -114,3 +113,46 @@ def delete_customer(request, customer_id):
         return JsonResponse({'success': True, 'message': 'Customer deleted successfully'})
     except Exception as e:
         return JsonResponse({'success': False, 'message': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+# api/views.py
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+# views.py
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from .models import Customer
+
+
+@api_view(['GET'])
+def customer_statistics(request):
+    total_customers = Customer.objects.count()
+    active_customers = Customer.objects.filter(customer_status='active').count()
+    inactive_customers = Customer.objects.filter(customer_status='inactive').count()
+
+    return Response({
+        'totalCustomers': total_customers,
+        'activeCustomers': active_customers,
+        'inactiveCustomers': inactive_customers,
+    })
+
+
+@api_view(['POST'])
+@csrf_exempt
+def contact_form_submission(request):
+    if request.method == 'POST':
+        try:
+            data = request.data
+            contact = Contact.objects.create(
+                name=data.get('name', ''),
+                email=data.get('email', ''),
+                subject=data.get('subject', ''),
+                message=data.get('message', ''),
+            )
+            # You can perform additional actions here if needed
+            return JsonResponse({'success': True})
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=500)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=400)

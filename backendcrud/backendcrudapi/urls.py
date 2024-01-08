@@ -23,7 +23,9 @@ urlpatterns = [
     path('get-csrf-token/', views.get_csrf_token, name='get_csrf_token'),
     path('signin/', views.user_login, name='user_login'),
     path('signup/', views.user_signup, name='user_signup'),
+    path('contact/', views.contact_form_submission, name='contact_form_submission'),
     path('add-customer/', views.CustomerList.as_view(), name='customerlist'),
     path('add-customer/<int:pk>/', views.CustomerDetail.as_view(), name='customerdetail'),
     path('delete-customer/<int:customer_id>/', views.delete_customer, name='delete_customer'),
+    path('customer-statistics/', views.customer_statistics, name='customer_statistics'),
 ]

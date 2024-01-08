@@ -8,3 +8,10 @@ from .models import *
 class CustomerAdmin(admin.ModelAdmin):
     list_display = ['id', 'company_name', 'first_name', 'last_name', 'contact_email', 'acquired_on',
                     'customer_status']
+    ordering = ['id']
+
+
+@admin.register(Contact)
+class ContactAdmin(admin.ModelAdmin):
+    list_display = ['id', 'name', 'email', 'subject', 'message']
+    ordering = ['id']
