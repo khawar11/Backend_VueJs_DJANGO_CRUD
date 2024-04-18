@@ -1,0 +1,40 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  SECRET_KEY: $SECRET_KEY
+  DEBUG: "False"
+  ALLOWED_HOSTS: "https://khawarkhan.pythonanywhere.com/"  # Replace with your domain name
+  DB_ENGINE: "django.db.backends.sqlite3"
+  DB_NAME: "db.sqlite3"
+  STATIC_URL: "/static/"
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ee/ci/yaml/README.html#cache
+cache:
+  paths:
+    - ~/.cache/pip/
+
+before_script:
+  - pip install -r requirements.txt
+
+test:
+  image: python:latest
+  script:
+    - cd backendcrud
+    - python manage.py makemigrations
+    - python manage.py migrate
+    - python manage.py test
+
+deploy:
+  image: python:latest
+  stage: deploy
+  script:
+    - pip install pythonanywhere
+    - pa_autoconfigure_django.py --python=3.8 https://gitlab.com/khawar11/Backend_VueJs_DJANGO_CRUD.git
+  environment:
+    name: production
+    url: "https://khawarkhan.pythonanywhere.com/"
+  only:
+    - master
