@@ -115,10 +115,6 @@ def delete_customer(request, customer_id):
         return JsonResponse({'success': False, 'message': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-# api/views.py
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-
 # views.py
 from rest_framework.decorators import api_view
 from rest_framework.response import Response

@@ -136,6 +136,7 @@ CSRF_COOKIE_HTTPONLY = False
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",  # If you're using localhost for development
+    "https://vuedjango-452fc.web.app/"
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
