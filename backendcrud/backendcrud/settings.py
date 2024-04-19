@@ -10,10 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
-
-from pathlib import Path
-# import dj_database_url
 import os
+from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,11 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-%$ac^0d8u&na_hvkl80$txclkq!bgyo#p6txqa79%%@*89=mjp'
+PYTHONANYWHERE_API_TOKEN = '8fb50f162002d7826b37ba0b83dc36e689ec91ea'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production!test
 DEBUG = False
 
-ALLOWED_HOSTS = ['khawarkhan.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
@@ -119,6 +119,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+# STATIC_URL = 'static/'
 # STATIC_URL = '/static/'
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -133,9 +134,11 @@ CORS_ALLOW_CREDENTIALS = True
 CSRF_COOKIE_HTTPONLY = False
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://127.0.0.1:5173",  # If you're using localhost for development
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:5173",  # If you're using localhost for development
+    "https://vuedjango-452fc.web.app"
+]
+CSRF_COOKIE_NAME = 'csrftoken'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend', ]
@@ -157,5 +160,15 @@ AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend', ]
 #     },
 # }
 
-CSRF_COOKIE_NAME = 'csrftoken'
+
+
+# Default path to virtual environments
+DEFAULT_WORKON_HOME = 'C:/Users/khanb/PycharmProjects/VUE_DJANGO_CRUD'
+
+# Get the value of WORKON_HOME environment variable, use default path if not set
+WORKON_HOME = os.getenv('WORKON_HOME', DEFAULT_WORKON_HOME)
+
+# Path to your Python executable
+PYTHON_EXECUTABLE = os.path.join(WORKON_HOME, 'venv', 'Scripts', 'python.exe')
+
 
