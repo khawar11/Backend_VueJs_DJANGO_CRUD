@@ -8,7 +8,7 @@ variables:
   SECRET_KEY: '$SECRET_KEY'
   PYTHONANYWHERE_API_TOKEN: '8fb50f162002d7826b37ba0b83dc36e689ec91ea'
   DEBUG: "False"
-  ALLOWED_HOSTS: "khawarkhan.pythonanywhere.com"  # Replace with your domain name test-1s
+  ALLOWED_HOSTS: "khawarkhan.pythonanywhere.com"  # Replace with your domain name test-1s 
   DB_ENGINE: "django.db.backends.sqlite3"
   DB_NAME: "db.sqlite3"
   STATIC_URL: "/static/"
@@ -38,7 +38,8 @@ deploy:
     - chmod +x venv/bin/activate
     - source venv/bin/activate
     - pip install pythonanywhere
-    - pa_autoconfigure_django.py --python=3.8 https://gitlab.com/khawar11/Backend_VueJs_DJANGO_CRUD.git
+    - pa_autoconfigure_django.py https://github.com/khawar11/Backend_VueJs_DJANGO_CRUD.git --branch=master --domain=khawarkhan.pythonanywhere.com --python=3.8 --token=8fb50f162002d7826b37ba0b83dc36e689ec91ea --nuke
+    # --token=8fb50f162002d7826b37ba0b83dc36e689ec91ea
   environment:
     name: production
     url: "https://khawarkhan.pythonanywhere.com/" 
