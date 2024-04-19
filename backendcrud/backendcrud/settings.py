@@ -170,5 +170,3 @@ WORKON_HOME = os.getenv('WORKON_HOME', DEFAULT_WORKON_HOME)
 
 # Path to your Python executable
 PYTHON_EXECUTABLE = os.path.join(WORKON_HOME, 'venv', 'Scripts', 'python.exe')
-
-
