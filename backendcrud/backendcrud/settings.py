@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 import os
 from pathlib import Path
-import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,8 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-%$ac^0d8u&na_hvkl80$txclkq!bgyo#p6txqa79%%@*89=mjp'
+PYTHONANYWHERE_API_TOKEN = '8fb50f162002d7826b37ba0b83dc36e689ec91ea'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production!test
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
@@ -144,21 +144,29 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend', ]
 
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': 'C:/Users/khanb/PycharmProjects/VUE_DJANGO_CRUD/backendcrud/django.log',  # Specify the full path to your log file
-        },
-    },
-    'root': {
-        'handlers': ['file'],
-        'level': 'DEBUG',
-    },
-}
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'file': {
+#             'level': 'DEBUG',
+#             'class': 'logging.FileHandler',
+#             'filename': 'C:/Users/khanb/PycharmProjects/VUE_DJANGO_CRUD/backendcrud/django.log',  # Specify the full path to your log file
+#         },
+#     },
+#     'root': {
+#         'handlers': ['file'],
+#         'level': 'DEBUG',
+#     },
+# }
 
 
 
+# Default path to virtual environments
+DEFAULT_WORKON_HOME = 'C:/Users/khanb/PycharmProjects/VUE_DJANGO_CRUD'
+
+# Get the value of WORKON_HOME environment variable, use default path if not set
+WORKON_HOME = os.getenv('WORKON_HOME', DEFAULT_WORKON_HOME)
+
+# Path to your Python executable
+PYTHON_EXECUTABLE = os.path.join(WORKON_HOME, 'venv', 'Scripts', 'python.exe')
