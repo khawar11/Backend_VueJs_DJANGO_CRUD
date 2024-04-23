@@ -152,3 +152,7 @@ def contact_form_submission(request):
             return JsonResponse({'error': str(e)}, status=500)
 
     return JsonResponse({'error': 'Invalid request method'}, status=400)
+
+
+def test_view(request):
+    return render(request, 'test.html')
